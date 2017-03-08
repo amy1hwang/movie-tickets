@@ -31,7 +31,8 @@ $(document).ready(function() {
     $(".ticket-selector-two").not(document.getElementById("appended-selector")).css("display", "none");
     var cost = function() {
               if (newMovie.age == "child"){
-                return "You must be 17 or over to watch these movies!"
+                alert("You must be 17 or over to watch these movies.");
+                $("#show-confirmation").hide();
               } else if (newMovie.time == "matinee") {
                 if (newMovie.age == "senior") {
                   return 6 * newMovie.quantity * .75

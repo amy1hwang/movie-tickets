@@ -1,8 +1,74 @@
+body {
+  background: #282C34;
+  color: white;
+  padding-top: 30px;
+}
+
+h1 {
+  padding: 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: #f57b00;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.new-ticket {
+  margin-top: 20px;
+}
+
+label {
+  margin: 20px 0 10px;
+}
+
+.form-control {
+  background: #282C34;
+  border: 1.2px solid white;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.form-control:hover, .form-control:focus, .form-control:active {
+  outline: none;
+  border: 1.2px solid white;
+}
+
+
+button.btn {
+  margin-top: 20px;
+  background-color: #f57b00;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1.2px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1.2px;
+}
+
+.col-md-6:last-of-type {
+  display: flex;
+  justify-content: center;
+}
+
 #show-confirmation {
   display: none;
 }
 
+h3, .movie-title {
+  color: #f57b00;
+}
+
 img {
+  margin-top: 20px;
   display: none;
   max-width: 500px;
 }
